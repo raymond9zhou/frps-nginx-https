@@ -1,6 +1,7 @@
 # frps-nginx-https ——nginx反代frps实现https的模板配置文件
+## blog说明地址：[点击此处](https://blog.ray8.cc/archives/frpc-frps-nginx-real-ip-https-rewrite-ssl-cert-pure-code.html)
 ## 服务器拓扑假设
-![服务器拓扑假设]()
+![服务器拓扑假设](https://github.com/raymond9zhou/frps-nginx-https/blob/master/img/FRP-pure.jpg)
 如上图所示，假设本地有两台服务器，一台nginx服务器负责本地网站的承载**下面称为LS1**，另一台负责运行frpc**下面称为LS2**，实际使用中这两台服务器可以合二为一，远端有一台frps服务器
 ## 可实现以下四种功能
 1. （放在case1中）本地LS1正确配置http跳转到https(TLS)，远端frps直接监听80 443端口
