@@ -1,5 +1,4 @@
-# frps-nginx-https
-# nginx反代frps实现https的模板配置文件
+# frps-nginx-https ——nginx反代frps实现https的模板配置文件
 ## 服务器拓扑假设
 ![服务器拓扑假设]()
 如上图所示，假设本地有两台服务器，一台nginx服务器负责本地网站的承载**下面称为LS1**，另一台负责运行frpc**下面称为LS2**，实际使用中这两台服务器可以合二为一，远端有一台frps服务器
